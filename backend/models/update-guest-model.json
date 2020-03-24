@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "guest",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "table": {
+      "type": "number"
+    },
+    "in": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": ["name", "table", "in", "type"],
+  "additionalProperties": false
+}
